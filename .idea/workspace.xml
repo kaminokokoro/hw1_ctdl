@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e944c1f-e2ef-430e-90b9-69e2dfe3c4ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw1_ctdl.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SimpleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sphere.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/complex.java" afterDir="false" />
+    <list default="true" id="9e944c1f-e2ef-430e-90b9-69e2dfe3c4ce" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex6/ListInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex6/SimpleArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex7/ListInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex7/SimpleArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex7/Testmain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex7/WordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -37,14 +36,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/ADMIN/eclipse-workspace/hw1_ctdl/src/ex7"
   }
-}</component>
-  <component name="RunManager" selected="Application.SimpleLinkedList">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\eclipse-workspace\hw1_ctdl\src\ex7" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Testmain">
     <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array" />
       <module name="hw1_ctdl" />
@@ -66,6 +71,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Testmain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex7.Testmain" />
+      <module name="hw1_ctdl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="complex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="complex" />
       <module name="hw1_ctdl" />
@@ -75,9 +93,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Testmain" />
+        <item itemvalue="Application.complex" />
         <item itemvalue="Application.SimpleLinkedList" />
         <item itemvalue="Application.Sphere" />
-        <item itemvalue="Application.complex" />
         <item itemvalue="Application.Array" />
       </list>
     </recent_temporary>
@@ -91,8 +110,16 @@
       <option name="presentableId" value="Default" />
       <updated>1676335223540</updated>
       <workItem from="1676335225037" duration="4800000" />
-      <workItem from="1676346029810" duration="823000" />
+      <workItem from="1676346029810" duration="4598000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1676346873269</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676346873269</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,5 +135,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
