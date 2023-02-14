@@ -9,6 +9,9 @@ public class Testmain {
                 "thức isContain đã xây dựng ở các cấu trúc dữ liệu trên, hoặc có thể sử dụng phương" +
                 "thức indexOf của các đối tượng cài đặt giao diện List";
         for (String s1 : s.split(" ")) {
+            if(!checkWord(s1)){
+                continue;
+            }
             WordCount wordCount = new WordCount(s1);
             if (list.isContain(wordCount)) {
                 list.get(list.indexOf(wordCount)).increment();
@@ -17,5 +20,14 @@ public class Testmain {
             }
         }
         System.out.println(list);
+    }
+
+    public static boolean checkWord(String s){
+        for (int i = 0; i < s.length(); i++) {
+            if (Character.isDigit(s.charAt(i))) {
+                return false;
+            }
+        }
+        return true;
     }
 }
